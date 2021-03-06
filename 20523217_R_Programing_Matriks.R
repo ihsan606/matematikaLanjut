@@ -13,7 +13,7 @@ det(H)
 det(J)
 K<-cbind(G[,1:5],J[,1:5])
 K
-G%%solve(G)# unexpected matrix
+G%*%solve(G)# unexpected matrix
 
 
 
