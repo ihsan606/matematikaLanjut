@@ -7,6 +7,7 @@ output: html_notebook
 
 ```{r}
 A <-matrix(c(5,-4,-1,1),2,2,TRUE)
+A
 b <-c(-10,2)
 showEqn(A,b)
 ```
