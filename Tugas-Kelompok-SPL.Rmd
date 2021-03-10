@@ -3,9 +3,9 @@ title: "R Notebook"
 output: html_notebook
 ---
 
-Nomor 1a
+No 1a
 ```{r}
-A <- matrix(c(4,-2,0,5,-2,1,3,4,-1),3,3,TRUE)
+A <- matrix(c(4,-2,0,5,-2,1,3,4,-1),3,3,byrow = TRUE)
 A
 a <-c(2,7,3)
 showEqn(A,a)
@@ -31,6 +31,10 @@ b<- c(-12,-4,-13)
 showEqn(B,b)
 ```
 ```{r}
+Solve(B,b)
+```
+
+```{r}
 plotEqn3d(B,b)
 ```
 ```{r}
@@ -46,6 +50,10 @@ C
 c<-c(5,7,-3)
 showEqn(C,c)
 ```
+```{r}
+Solve(C,c)
+```
+
 ```{r}
 plotEqn3d(C,c)
 ```
