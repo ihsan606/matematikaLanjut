@@ -16,4 +16,3 @@ K
 G%*%solve(G)# unexpected matrix
 
 
-
