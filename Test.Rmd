@@ -1,0 +1,31 @@
+---
+title: "Limit"
+author: "MUHAMMAD IHSAN SYAFIUL UMAM"
+date: "4/14/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+
+
+```{r }
+x<- Sym("x")
+#2a
+Limit(8-3*x+12*x^2,x,2)
+```
+
+## Including Plots
+
+
+
+```{r}
+#2b
+Limit((x^2 + 5*x + 10)/(3*x^2-6*x-2),x,Infinity)
+```
+
+
