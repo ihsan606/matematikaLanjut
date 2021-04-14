@@ -1,26 +1,16 @@
----
-title: "R Notebook"
-output:
-  html_document:
-    df_print: paged
----
 
-```{r}
 x<- Sym("x")
 #2a
 Limit(8-3*x+12*x^2,x,2)
 
-```
-```{r}
+
 #2b
 Limit((x^2 + 5*x + 10)/(3*x^2-6*x-2),x,Infinity)
-```
-```{r}
+
+
 #2c
 Limit(((6 + x)^2 - 36)/x,x,0)
-```
-```{r}
+
+
 #2d
 Limit(x/(3-sqrt(x + 9)),x,0)
-```
-
