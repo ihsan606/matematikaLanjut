@@ -1,0 +1,41 @@
+---
+title: "Differentiation"
+author: "MUHAMMAD IHSAN SYAFIUL UMAM"
+date: "5/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+EXERCISE 1
+```{r}
+#EXERCISE 1
+# Number 1
+D(expression(2*x^5),'x')
+yac_expr("D(x) 2*x^5")
+```
+
+```{r}
+# Number 2
+D(expression(x^2 + 4),'x')
+yac_expr("D(x) x^2 + 4")
+```
+```{r}
+# Number 3
+D(expression(x^5 - 6*x^7),'x')
+yac_expr("D(x) x^5-6*x^7")
+```
+
+EXERCISE 2
+```{r}
+#EXERCISE 2
+#f(x) = x^6 -2         
+#g(x) = sin(x) - 4
+# Number 1  d/dx (f(x).g(x))
+yac_expr("D(x) (x^6 - 2)*(Sin(x) - 4)")
+
+```
+
