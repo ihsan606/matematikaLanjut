@@ -5,8 +5,8 @@ date: "5/29/2021"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r, echo=FALSE}
+knitr::opts_chunk$set(error = TRUE)
 ```
 
 
@@ -37,5 +37,27 @@ EXERCISE 2
 # Number 1  d/dx (f(x).g(x))
 yac_expr("D(x) (x^6 - 2)*(Sin(x) - 4)")
 
+```
+```{r}
+# Number 2
+yac_expr("D(x) (Sin(x) - 4)*(x^6 - 2)")
+```
+```{r}
+# Number 3
+yac_expr("D(x) (x^6 - 2)/(Sin(x) - 4)")
+```
+
+```{r}
+# Number 4
+yac_expr("D(x) (Sin(x) - 4)/(x^6 - 2)")
+
+```
+```{r}
+# Number 5
+yac_expr("D(x) (Sin(x)-4)^6 -2")
+```
+```{r}
+# Number 6
+yac_expr("D(x) Sin(x^6 -2) -4")
 ```
 
